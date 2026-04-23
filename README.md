@@ -1,254 +1,145 @@
-# YF Advisors – Strategic Advisory 2.0
+<div align="center">
+  <img src="./public/readme-banner.png" alt="YF Advisors Banner" width="100%">
+  
+  # 🚀 YF Advisors – Strategic Advisory 2.0
+  
+  **Empowering businesses with strategic financial clarity and operational excellence through AI-driven Global Business Services (GBS).**
 
-Empowering businesses with **strategic financial clarity** and **operational excellence** through AI-driven Global Business Services (GBS).
-
----
-
-## 📌 Overview
-
-**YF Advisors** is a global strategic advisory and professional services firm helping organizations scale efficiently by transforming back-office operations into a competitive advantage.
-
-With **15+ years of trusted excellence**, YF Advisors partners with businesses across **India, USA, and Dubai**, delivering measurable results through advisory, outsourcing, and digital solutions.
-
----
-
-## 🚀 Value Proposition
-
-> **Grow your business — not your back office**
-
-We maximize efficiency using:
-- Customized Global Business Services (GBS)
-- AI-driven technologies
-- Lean process transformation
-- Compliance-first execution models
+  [![Next.js](https://img.shields.io/badge/Next.js-15+-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+  [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-ff69b4?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
+</div>
 
 ---
 
-## 📊 Proven Results & Impact
+## 📌 Project Overview
 
+**YF Advisors** is a global strategic advisory and professional services firm helping organizations scale efficiently by transforming back-office operations into a competitive advantage. With **15+ years of trusted excellence**, YF Advisors partners with businesses across **India, USA, and Dubai**, delivering measurable results through advisory, outsourcing, and digital solutions.
+
+> **"Grow your business — not your back office"**
+
+### 📊 Proven Impact
 | Metric | Achievement |
-|------|------------|
-| Man Hours Served | **100K+** |
-| Client Savings | **$150M** |
-| Efficiency Increase | **23%** |
-| Client Retention | **98%** |
+| :--- | :--- |
+| **Man Hours Served** | 100K+ |
+| **Client Savings** | $150M |
+| **Efficiency Increase** | 23% |
+| **Client Retention** | 98% |
 
 ---
 
-## 🏢 About YF Advisors
+## 🛠️ Tech Stack
 
-### Who We Are
-A powerhouse team of **10+ partners and 50+ experts**, including:
-- Chartered Accountants (CAs)
-- Company Secretaries (CSs)
-- Legal & Compliance Professionals
+This project is built with a modern, high-performance web stack:
 
-Serving global clients with round-the-clock operational support.
-
----
-
-### Our Vision
-- Build seamless **lean cultures**
-- Prioritize **absolute client trust**
-- Deliver **flexible, 24/7 global support**
+- **Frontend**: [Next.js](https://nextjs.org/) (App Router), [React 19](https://reactjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/), [Styled Components](https://styled-components.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/), [OGL](https://github.com/o-g-l/ogl)
+- **Icons**: [Lucide React](https://lucide.dev/), [React Icons](https://react-icons.github.io/react-icons/)
+- **Backend/Integrations**: [Nodemailer](https://nodemailer.com/) (Contact Forms)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
 
 ---
 
-### Our Mission
-- Turn innovative ideas into reality  
-- Set the benchmark for professional services  
-- Deliver work our teams are proud of  
+## ✨ Key Features
+
+- **Dynamic Interactive UI**: Smooth transitions and micro-animations using Framer Motion.
+- **Service Explorer**: Interactive cards for exploring strategic advisory services.
+- **Product Showcases**: Dedicated sections for flagship products like **AuditVeda** and **PayVeda**.
+- **Responsive Leadership Section**: Clean presentation of the expert team.
+- **Global Presence Visualization**: Highlighting operations in India, USA, and Dubai.
+- **Optimized Performance**: Built on Next.js for lightning-fast load times and SEO.
 
 ---
 
-### Why Choose Us
-- Practical, execution-driven advisory
-- Customized and cost-effective solutions
-- Strong compliance & governance focus
-- Designed to simplify complex back-office operations
+## 📁 Project Structure
+
+```bash
+yfa-website/
+├── public/             # Static assets (logos, banners, icons)
+├── src/
+│   ├── app/            # Next.js App Router (Pages, Layouts)
+│   ├── components/     # Reusable UI components
+│   └── data/           # Mock data and static content
+├── .env                # Environment variables
+├── next.config.ts      # Next.js configuration
+└── tailwind.config.ts  # Tailwind CSS configuration
+```
 
 ---
 
-## 🌍 Global Presence
+## 🚀 Getting Started
 
-- 🇮🇳 India  
-- 🇺🇸 USA  
-- 🇦🇪 Dubai  
+### Prerequisites
+
+- **Node.js**: 18.x or higher
+- **npm** or **yarn**
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Innovox-Software-Solutions/YFA-Website.git
+   cd YFA-Website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env.local` file and add necessary keys (e.g., Nodemailer credentials).
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ---
 
-## 🤝 Trusted By
+## 🏗️ flagship Products
 
-- **10+ Strategic Partners**
-- **50+ Industry Professionals**
+### [AuditVeda] ⭐ 4.8/5
+**Audit Management Simplified.** A comprehensive web solution to streamline audit processes with real-time tracking, digital checklists, and instant report generation.
 
----
-
-## 🧭 Services
-
-YF Advisors delivers end-to-end strategic and operational services through an integrated service model.
-
-**Key Focus Areas:**
-- Strategic Advisory
-- Global Business Services (GBS)
-- Financial & Compliance Operations
-- Process Optimization
-- Outsourcing & Shared Services
-
-> UI Feature: Drag to explore services • Click cards for detailed views
-
----
-
-## 💬 Testimonials
-
-**Loved by businesses worldwide**
-
-Our clients consistently report:
-- Improved back-office efficiency
-- Significant cost savings
-- Reliable delivery quality
-- High compliance confidence
+### [PayVeda] ⭐ 4.8/5
+**Payroll in Your Pocket.** A modern web-based payroll and HR management platform for view/downloading payslips, leave management, and compliance alerts.
 
 ---
 
 ## 👥 Leadership Team
 
-### Meet Our People
+Our powerhouse team of **10+ partners and 50+ experts** includes CAs, CSs, and Legal Professionals.
 
-#### Vishal Aggarwal  
-**Founder & Partner**  
-Chartered Accountant  
-Specialization: Business Process Re-engineering & Advisory  
-Experience: **14+ years**
-
----
-
-#### Kirti Aggarwal  
-**Co-Founder & Partner**  
-Chartered Accountant  
-Specialization: Finance & Legal Operations in MNCs  
-Experience: **12+ years**
-
----
-
-#### Saket Drona  
-**Partner**  
-Post Graduate – IIM  
-Specialization: International Offshoring & Operational Excellence  
-Experience: **26+ years**
-
----
-
-#### Shiv Mittal  
-**Partner**  
-Specialization: Strategic Financial Management, Cash Flow & Systems  
-Experience: **21+ years**
-
----
-
-#### Deepak Babel  
-**Partner**  
-Specialization: Internal Audits, Data Analytics & Outsourcing Operations  
-Experience: **15+ years**
-
----
-
-#### Sanjay Choudhary  
-**Growth Partner**  
-Masters – IIM Calcutta  
-Specialization: Operations & Delivery Quality  
-Experience: **30+ years**
-
----
-
-#### Jyoti Mittal  
-**Growth Partner**  
-Masters in Marketing & HR  
-Specialization: Talent Management & Acquisition  
-Experience: **27+ years**
-
----
-
-#### Ritesh Verma  
-**Growth Partner**  
-B.E. (Computer Science)  
-Specialization: IT Projects, Banking & Capital Markets  
-Experience: **25+ years**
-
----
-
-## 🧩 Products
-
-### AuditVeda  
-**Audit Management Simplified**  
-⭐ Rated **4.8/5**
-
-A comprehensive web solution to streamline audit processes.
-
-**Key Features:**
-- Real-time audit tracking
-- Digital checklists & evidence management
-- Instant report generation
-
-**Access Options:**
-- Access Now
-- Launch Web App
-
----
-
-### PayVeda  
-**Payroll in Your Pocket**  
-⭐ Rated **4.8/5**
-
-A modern web-based payroll and HR management platform.
-
-**Key Features:**
-- View & download payslips
-- Leave & attendance management
-- Tax & compliance alerts
-
-**Access Options:**
-- Access Now
-- Launch Web App
+| Name | Role | Specialization |
+| :--- | :--- | :--- |
+| **Vishal Aggarwal** | Founder & Partner | BPR & Advisory |
+| **Kirti Aggarwal** | Co-Founder & Partner | Finance & Legal Operations |
+| **Saket Drona** | Partner | International Offshoring |
+| **Shiv Mittal** | Partner | Strategic Financial Management |
+| **And more...** | Experts | Operations, IT, Talent Management |
 
 ---
 
 ## 📬 Contact Us
 
-### Let’s Start a Conversation
 Ready to scale your business? We’re here to help.
 
-**Office Address**  
-207, 2nd Floor, Building No. 1  
-Millennium Business Park  
-Navi Mumbai – 400710
-
-**Phone:** +91 80805 06185  
-**Email:** info@yfadvisors.com  
+- **📍 Address**: 207, 2nd Floor, Millennium Business Park, Navi Mumbai – 400710
+- **📞 Phone**: +91 80805 06185
+- **📧 Email**: [info@yfadvisors.com](mailto:info@yfadvisors.com)
+- **🌐 Website**: [www.yfadvisors.com](https://www.yfadvisors.com)
 
 ---
 
-## 📝 Get in Touch
-
-Fill out the contact form on our website and our team will get back to you within **24 hours**.
-
-**Form Fields:**
-- Name
-- Phone Number
-- Email Address
-- Service Interested In
-- Message
-
----
-
-## 🏁 Footer Information
-
-**YF Advisors LLP**  
-Empowering businesses with strategic financial clarity and operational excellence.
-
-📍 Navi Mumbai, HQ  
-
-© 2026 YF Advisors LLP. All rights reserved.
-
-- Privacy Policy
-- Terms of Service
+<div align="center">
+  <p>© 2026 YF Advisors LLP. All rights reserved.</p>
+  <p>
+    <a href="#">Privacy Policy</a> • 
+    <a href="#">Terms of Service</a>
+  </p>
+</div>
