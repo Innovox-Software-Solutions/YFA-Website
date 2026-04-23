@@ -1,11 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Explicitly set the root directory to fix workspace inference issues
-  experimental: {
-    turbo: {
-      root: '.',
-    },
-  },
   async redirects() {
     return [
       {
@@ -27,4 +21,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
